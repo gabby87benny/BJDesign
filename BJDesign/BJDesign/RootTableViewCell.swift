@@ -11,15 +11,15 @@ import UIKit
 class RootTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lblDesignItem: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
     }
     
-    func configureCell() {
-        lblDesignItem.text = "some str"
+    func configureCell(item: Item) {
+        lblDesignItem.text = item.name
     }
 
 }

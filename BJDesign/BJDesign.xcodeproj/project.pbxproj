@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5B5CA28F243E8B28005C5908 /* RootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA28E243E8B28005C5908 /* RootTableViewCell.swift */; };
+		5B5CA2932440DD2E005C5908 /* ViewNavigationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA2922440DD2E005C5908 /* ViewNavigationsViewController.swift */; };
+		5B5CA2952440DD55005C5908 /* ViewNavigationsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5CA2942440DD55005C5908 /* ViewNavigationsViewController.storyboard */; };
+		5B5CA2A124477938005C5908 /* PushNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA2A024477938005C5908 /* PushNavigationViewController.swift */; };
+		5B5CA2A5244796A2005C5908 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA2A4244796A2005C5908 /* NavigationItem.swift */; };
+		5B5CA2A72447AE07005C5908 /* ModalNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA2A62447AE07005C5908 /* ModalNavigationViewController.swift */; };
+		5B5CA2A92447AE59005C5908 /* ModalNavigationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5CA2A82447AE59005C5908 /* ModalNavigationViewController.storyboard */; };
+		5B5CA2AB2447BB54005C5908 /* PopoverNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA2AA2447BB54005C5908 /* PopoverNavViewController.swift */; };
+		5B5CA2AD2447BC05005C5908 /* PopoverNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5CA2AC2447BC05005C5908 /* PopoverNavigation.storyboard */; };
 		5BFC7A2C243D0615001EDAC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC7A2B243D0615001EDAC0 /* AppDelegate.swift */; };
 		5BFC7A2E243D0615001EDAC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC7A2D243D0615001EDAC0 /* SceneDelegate.swift */; };
 		5BFC7A30243D0615001EDAC0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC7A2F243D0615001EDAC0 /* RootViewController.swift */; };
@@ -30,6 +38,14 @@
 
 /* Begin PBXFileReference section */
 		5B5CA28E243E8B28005C5908 /* RootTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewCell.swift; sourceTree = "<group>"; };
+		5B5CA2922440DD2E005C5908 /* ViewNavigationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNavigationsViewController.swift; sourceTree = "<group>"; };
+		5B5CA2942440DD55005C5908 /* ViewNavigationsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewNavigationsViewController.storyboard; sourceTree = "<group>"; };
+		5B5CA2A024477938005C5908 /* PushNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNavigationViewController.swift; sourceTree = "<group>"; };
+		5B5CA2A4244796A2005C5908 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		5B5CA2A62447AE07005C5908 /* ModalNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalNavigationViewController.swift; sourceTree = "<group>"; };
+		5B5CA2A82447AE59005C5908 /* ModalNavigationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModalNavigationViewController.storyboard; sourceTree = "<group>"; };
+		5B5CA2AA2447BB54005C5908 /* PopoverNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverNavViewController.swift; sourceTree = "<group>"; };
+		5B5CA2AC2447BC05005C5908 /* PopoverNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopoverNavigation.storyboard; sourceTree = "<group>"; };
 		5BFC7A28243D0615001EDAC0 /* BJDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFC7A2B243D0615001EDAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BFC7A2D243D0615001EDAC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +78,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5CA2912440DCFA005C5908 /* ViewNavigations */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CA2A4244796A2005C5908 /* NavigationItem.swift */,
+				5B5CA2922440DD2E005C5908 /* ViewNavigationsViewController.swift */,
+				5B5CA2942440DD55005C5908 /* ViewNavigationsViewController.storyboard */,
+				5B5CA29F24477907005C5908 /* Push */,
+				5B5CA29C24477907005C5908 /* Modal */,
+				5B5CA29E24477907005C5908 /* PopOver */,
+				5B5CA29D24477907005C5908 /* Present */,
+			);
+			path = ViewNavigations;
+			sourceTree = "<group>";
+		};
+		5B5CA29C24477907005C5908 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CA2A62447AE07005C5908 /* ModalNavigationViewController.swift */,
+				5B5CA2A82447AE59005C5908 /* ModalNavigationViewController.storyboard */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5B5CA29D24477907005C5908 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		5B5CA29E24477907005C5908 /* PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CA2AA2447BB54005C5908 /* PopoverNavViewController.swift */,
+				5B5CA2AC2447BC05005C5908 /* PopoverNavigation.storyboard */,
+			);
+			path = PopOver;
+			sourceTree = "<group>";
+		};
+		5B5CA29F24477907005C5908 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CA2A024477938005C5908 /* PushNavigationViewController.swift */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
 		5BFC7A1F243D0615001EDAC0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +151,7 @@
 				5BFC7A2F243D0615001EDAC0 /* RootViewController.swift */,
 				5B5CA28E243E8B28005C5908 /* RootTableViewCell.swift */,
 				5BFC7A31243D0615001EDAC0 /* Main.storyboard */,
+				5B5CA2912440DCFA005C5908 /* ViewNavigations */,
 				5BFC7A37243D0617001EDAC0 /* Assets.xcassets */,
 				5BFC7A39243D0617001EDAC0 /* LaunchScreen.storyboard */,
 				5BFC7A3C243D0617001EDAC0 /* Info.plist */,
@@ -187,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BFC7A3B243D0617001EDAC0 /* LaunchScreen.storyboard in Resources */,
+				5B5CA2A92447AE59005C5908 /* ModalNavigationViewController.storyboard in Resources */,
+				5B5CA2AD2447BC05005C5908 /* PopoverNavigation.storyboard in Resources */,
 				5BFC7A38243D0617001EDAC0 /* Assets.xcassets in Resources */,
 				5BFC7A33243D0615001EDAC0 /* Main.storyboard in Resources */,
+				5B5CA2952440DD55005C5908 /* ViewNavigationsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,10 +274,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BFC7A30243D0615001EDAC0 /* RootViewController.swift in Sources */,
+				5B5CA2A72447AE07005C5908 /* ModalNavigationViewController.swift in Sources */,
+				5B5CA2932440DD2E005C5908 /* ViewNavigationsViewController.swift in Sources */,
 				5BFC7A2C243D0615001EDAC0 /* AppDelegate.swift in Sources */,
 				5BFC7A2E243D0615001EDAC0 /* SceneDelegate.swift in Sources */,
 				5BFC7A36243D0615001EDAC0 /* BJDesign.xcdatamodeld in Sources */,
+				5B5CA2AB2447BB54005C5908 /* PopoverNavViewController.swift in Sources */,
 				5B5CA28F243E8B28005C5908 /* RootTableViewCell.swift in Sources */,
+				5B5CA2A5244796A2005C5908 /* NavigationItem.swift in Sources */,
+				5B5CA2A124477938005C5908 /* PushNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0CE-8i-cKx">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0CE-8i-cKx">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -27,7 +27,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxj-Xa-GLi">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                                                    <rect key="frame" x="10" y="0.0" width="404" height="64"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -35,7 +35,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="Gxj-Xa-GLi" secondAttribute="bottom" id="7vX-vE-fWc"/>
-                                                <constraint firstItem="Gxj-Xa-GLi" firstAttribute="leading" secondItem="xws-l9-edf" secondAttribute="leading" id="c1M-M3-9It"/>
+                                                <constraint firstItem="Gxj-Xa-GLi" firstAttribute="leading" secondItem="xws-l9-edf" secondAttribute="leading" constant="10" id="c1M-M3-9It"/>
                                                 <constraint firstAttribute="trailing" secondItem="Gxj-Xa-GLi" secondAttribute="trailing" id="cyt-xb-2GJ"/>
                                                 <constraint firstItem="Gxj-Xa-GLi" firstAttribute="top" secondItem="xws-l9-edf" secondAttribute="top" id="x5s-Nb-DVZ"/>
                                             </constraints>
