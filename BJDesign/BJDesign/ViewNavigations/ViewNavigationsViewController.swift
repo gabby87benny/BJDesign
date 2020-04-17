@@ -19,8 +19,6 @@ class ViewNavigationsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //tableView.register(UITableViewCell.self, forCellReuseIdentifier: ViewNavigationsViewControllerConstants.viewNavigationsTableViewIdentifier)
         items = [
             NavigationItem(name: "Push navigation", controllerName: "PushNavigationViewController")
         ]
@@ -49,12 +47,3 @@ extension ViewNavigationsViewController: UITableViewDataSource {
     }
 }
 
-//extension ViewNavigationsViewController: UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let item = items[indexPath.row]
-//        let storyboardRef = UIStoryboard(name: item.controllerName, bundle: nil)
-//        if let initialVC = storyboardRef.instantiateInitialViewController() {
-//            self.navigationController?.pushViewController(initialVC, animated: true)
-//        }
-//    }
-//}

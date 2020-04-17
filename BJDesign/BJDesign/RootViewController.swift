@@ -20,12 +20,10 @@ struct Item {
 class RootViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    
     var items: [Item] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         items = [
             Item(name: "View navigations", controllerName: "ViewNavigationsViewController")
         ]

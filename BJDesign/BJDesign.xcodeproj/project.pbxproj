@@ -87,7 +87,6 @@
 				5B5CA29F24477907005C5908 /* Push */,
 				5B5CA29C24477907005C5908 /* Modal */,
 				5B5CA29E24477907005C5908 /* PopOver */,
-				5B5CA29D24477907005C5908 /* Present */,
 			);
 			path = ViewNavigations;
 			sourceTree = "<group>";
@@ -99,13 +98,6 @@
 				5B5CA2A82447AE59005C5908 /* ModalNavigationViewController.storyboard */,
 			);
 			path = Modal;
-			sourceTree = "<group>";
-		};
-		5B5CA29D24477907005C5908 /* Present */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Present;
 			sourceTree = "<group>";
 		};
 		5B5CA29E24477907005C5908 /* PopOver */ = {

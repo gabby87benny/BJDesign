@@ -9,7 +9,6 @@
 import UIKit
 
 class ModalNavigationViewController: UIViewController {
-
     @IBOutlet weak var lblItem: UILabel!
     
     override func viewDidLoad() {
@@ -17,7 +16,6 @@ class ModalNavigationViewController: UIViewController {
         lblItem.text = "Modal view"
     }
     
-
     @IBAction func cancelButtonTapped(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
