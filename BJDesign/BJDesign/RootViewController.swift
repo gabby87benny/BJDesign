@@ -25,7 +25,8 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         items = [
-            Item(name: "View navigations", controllerName: "ViewNavigationsViewController")
+            Item(name: "View navigations", controllerName: "ViewNavigationsViewController"),
+            Item(name: "Customer comparison", controllerName: "CustomerComparison")
         ]
     }
 }
